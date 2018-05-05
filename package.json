@@ -2,7 +2,7 @@
   "name": "pre-push-hook-prevent",
   "version": "0.0.0",
   "scripts": {
-    "precommit": "ng lint & ng build",
+    "precommit": "npm run lint && npm run build",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
